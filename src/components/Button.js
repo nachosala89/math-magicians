@@ -4,13 +4,15 @@ import React from 'react';
 // eslint-disable-next-line react/prefer-stateless-function
 export default class Button extends React.Component {
   render() {
-    const { input } = this.props;
+    const { input, btnClass } = this.props;
+    const classes = `calc-btn col-md-1 py-3 ${btnClass}`;
     return (
-      <button type="button">{input}</button>
+      <button className={classes} type="button">{input}</button>
     );
   }
 }
 
 Button.propTypes = {
-  input: PropTypes.string.isRequired,
+  input: PropTypes.isRequired,
+  btnClass: PropTypes.string.isRequired,
 };
