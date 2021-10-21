@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import calculate from '../logic/calculate';
 
 export default class Button extends React.Component {
   constructor(props) {
@@ -9,8 +8,8 @@ export default class Button extends React.Component {
   }
 
   handleClickButton() {
-    const { input, handleClickButton, ...state } = this.props;
-    handleClickButton(calculate(state, input));
+    const { input, handleClickButton } = this.props;
+    handleClickButton(input);
   }
 
   render() {
