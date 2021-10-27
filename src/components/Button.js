@@ -8,7 +8,7 @@ const Button = (props) => {
   };
 
   const { input, btnClass } = props;
-  const classes = `calc-btn col-md-1 py-3 ${btnClass}`;
+  const classes = `calc-btn ${btnClass}`;
   return (
     <button className={classes} type="button" onClick={handleClickButton}>{input}</button>
   );
