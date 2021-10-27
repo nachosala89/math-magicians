@@ -21,37 +21,37 @@ const Calculator = () => {
   }
   return (
     <div className="calc-container">
-      <div className="row">
-        <span className="result text-end col-md-4 py-3">{result}</span>
+      <div className="d-flex result calc-row align-items-center">
+        <span className="w-100 text-end">{result}</span>
       </div>
-      <div className="row">
-        <Button btnClass="gray-btn" input="AC" handleClickButton={handleClickButton} />
-        <Button btnClass="gray-btn" input="+/-" handleClickButton={handleClickButton} />
-        <Button btnClass="gray-btn" input="%" handleClickButton={handleClickButton} />
-        <Button btnClass="orange-btn" input="÷" handleClickButton={handleClickButton} />
+      <div className="d-flex calc-row">
+        <Button btnClass="gray-btn w-25" input="AC" handleClickButton={handleClickButton} />
+        <Button btnClass="gray-btn w-25" input="+/-" handleClickButton={handleClickButton} />
+        <Button btnClass="gray-btn w-25" input="%" handleClickButton={handleClickButton} />
+        <Button btnClass="orange-btn w-25" input="÷" handleClickButton={handleClickButton} />
       </div>
-      <div className="row">
-        <Button btnClass="gray-btn" input="7" handleClickButton={handleClickButton} />
-        <Button btnClass="gray-btn" input="8" handleClickButton={handleClickButton} />
-        <Button btnClass="gray-btn" input="9" handleClickButton={handleClickButton} />
-        <Button btnClass="orange-btn" input="x" handleClickButton={handleClickButton} />
+      <div className="d-flex calc-row">
+        <Button btnClass="gray-btn w-25" input="7" handleClickButton={handleClickButton} />
+        <Button btnClass="gray-btn w-25" input="8" handleClickButton={handleClickButton} />
+        <Button btnClass="gray-btn w-25" input="9" handleClickButton={handleClickButton} />
+        <Button btnClass="orange-btn w-25" input="x" handleClickButton={handleClickButton} />
       </div>
-      <div className="row">
-        <Button btnClass="gray-btn" input="4" handleClickButton={handleClickButton} />
-        <Button btnClass="gray-btn" input="5" handleClickButton={handleClickButton} />
-        <Button btnClass="gray-btn" input="6" handleClickButton={handleClickButton} />
-        <Button btnClass="orange-btn" input="-" handleClickButton={handleClickButton} />
+      <div className="d-flex calc-row">
+        <Button btnClass="gray-btn w-25" input="4" handleClickButton={handleClickButton} />
+        <Button btnClass="gray-btn w-25" input="5" handleClickButton={handleClickButton} />
+        <Button btnClass="gray-btn w-25" input="6" handleClickButton={handleClickButton} />
+        <Button btnClass="orange-btn w-25" input="-" handleClickButton={handleClickButton} />
       </div>
-      <div className="row">
-        <Button btnClass="gray-btn" input="1" handleClickButton={handleClickButton} />
-        <Button btnClass="gray-btn" input="2" handleClickButton={handleClickButton} />
-        <Button btnClass="gray-btn" input="3" handleClickButton={handleClickButton} />
-        <Button btnClass="orange-btn" input="+" handleClickButton={handleClickButton} />
+      <div className="d-flex calc-row">
+        <Button btnClass="gray-btn w-25" input="1" handleClickButton={handleClickButton} />
+        <Button btnClass="gray-btn w-25" input="2" handleClickButton={handleClickButton} />
+        <Button btnClass="gray-btn w-25" input="3" handleClickButton={handleClickButton} />
+        <Button btnClass="orange-btn w-25" input="+" handleClickButton={handleClickButton} />
       </div>
-      <div className="row">
-        <Button btnClass="gray-btn col-md-2" input="0" handleClickButton={handleClickButton} />
-        <Button btnClass="gray-btn" input="." handleClickButton={handleClickButton} />
-        <Button btnClass="orange-btn" input="=" handleClickButton={handleClickButton} />
+      <div className="d-flex calc-row">
+        <Button btnClass="gray-btn w-50" input="0" handleClickButton={handleClickButton} />
+        <Button btnClass="gray-btn w-25" input="." handleClickButton={handleClickButton} />
+        <Button btnClass="orange-btn w-25" input="=" handleClickButton={handleClickButton} />
       </div>
     </div>
   );
