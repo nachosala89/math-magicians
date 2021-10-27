@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="calc-container"
+>
+  <div
+    className="d-flex result calc-row align-items-center"
+  >
+    <span
+      className="w-100 text-end"
+    >
+      0
+    </span>
+  </div>
+  <div
+    className="d-flex calc-row"
+  >
+    <button
+      className="calc-btn gray-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="calc-btn gray-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="calc-btn gray-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="calc-btn orange-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+  </div>
+  <div
+    className="d-flex calc-row"
+  >
+    <button
+      className="calc-btn gray-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="calc-btn gray-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="calc-btn gray-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="calc-btn orange-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+  </div>
+  <div
+    className="d-flex calc-row"
+  >
+    <button
+      className="calc-btn gray-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="calc-btn gray-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="calc-btn gray-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="calc-btn orange-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+  </div>
+  <div
+    className="d-flex calc-row"
+  >
+    <button
+      className="calc-btn gray-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="calc-btn gray-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="calc-btn gray-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="calc-btn orange-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+  </div>
+  <div
+    className="d-flex calc-row"
+  >
+    <button
+      className="calc-btn gray-btn w-50"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="calc-btn gray-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="calc-btn orange-btn w-25"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
