@@ -17,6 +17,7 @@
 ## Live Demo
 
 [Heroku](https://math-magicians-nacho.herokuapp.com/)
+[Netlify](https://compassionate-pike-d93428.netlify.app/)
 
 ## Getting Started
 
