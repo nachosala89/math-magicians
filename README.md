@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Math Magicians](https://nachosala89.github.io/math-magicians/public/)
+[Heroku](https://math-magicians-nacho.herokuapp.com/)
 
 ## Getting Started
 
